@@ -1,0 +1,27 @@
+{
+  "name": "cutie-hack-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/ -o css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartektelec/cutie-hack-2020.git"
+  },
+  "keywords": [],
+  "author": "bartektelec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartektelec/cutie-hack-2020/issues"
+  },
+  "homepage": "https://github.com/bartektelec/cutie-hack-2020#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
