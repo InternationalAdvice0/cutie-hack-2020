@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting</title>
+    <link rel="stylesheet" href="scss/style.scss">
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/eva-icons"></script> 
+    
+</head>
+<body>
+    <div class="app">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#"><i data-eva="arrow-back-outline"></i></a>
+            <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+
+        </nav>
+        <main class="app__content">
+            <header class="profile__header">
+                <img class="avatar avatar--big"src="https://thispersondoesnotexist.com/image" alt="Picture">
+            </header>
+            <div class="profile__controls">
+                <button class="controls controls--decline">
+                    <i data-eva="slash-outline" data-eva-fill="#fff"></i>
+                </button>
+                <button class="controls controls--accept"><i data-eva="checkmark-outline" data-eva-fill="#fff"></i></button>
+            </div>
+            <div class="profile__content">
+                <h1>Adam, 24</h1>
+                <p>Skills: 
+                    <span class="badge badge-success">HTML5</span>
+                    <span class="badge badge-success">React</span>
+                    <span class="badge badge-success">Nodejs</span>
+                </p>
+                <div>
+                    <div class="alert alert-custom">
+                    <p class="font-weight-bolder">About Adam</p>
+                        Adam is the coolest guy!
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    </body>
+<script>
+eva.replace()</script>
+</html>
