@@ -1,0 +1,53 @@
+.avatar {
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+}
+
+.avatar--big {
+  width: 15rem;
+}
+
+.profile__header {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.profile__controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls {
+  background: none;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+  box-shadow: var(--shadow);
+  border-radius: 50%;
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.controls--decline {
+  background-color: #979797;
+}
+
+.controls--accept {
+  background-color: var(--primary);
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.alert-custom {
+  @extend .alert-primary;
+  color: var(--primary);
+  border: none;
+  background-color: var(--primary-light);
+}
