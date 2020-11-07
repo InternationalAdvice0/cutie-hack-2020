@@ -1,0 +1,42 @@
+.avatar {
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+}
+
+.chat__header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.chat-header__content {
+  max-width: 60ch;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chat__content {
+  flex: 1;
+}
+
+.chat-bubble__img {
+  @extend .avatar;
+  width: 3rem;
+  position: absolute;
+  left: -1rem;
+  top: -1rem;
+}
+
+.chat__bubble {
+  @extend .alert, .alert-primary;
+  padding-left: 3.5rem;
+  position: relative;
+}
+
+.chat__bubble--out {
+  @extend .alert-warning;
+}

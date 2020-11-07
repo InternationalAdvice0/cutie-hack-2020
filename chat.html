@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting</title>
+    <link rel="stylesheet" href="scss/style.scss">
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/eva-icons"></script> 
+    
+</head>
+<body>
+    <div class="app">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#"><i data-eva="arrow-back-outline"></i></a>
+            <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+
+        </nav>
+        <main class="app__content">
+            <header class="chat__header">
+                <img class="avatar"src="https://thispersondoesnotexist.com/image" alt="Picture">
+                <div class="chat-header__content">
+                    <h1>Adam, 24</h1>
+                    <p>Adam is looking for a job as a full-stack developer in Oslo.</p>
+                </div>
+            </header>
+            <section class="chat__content">
+                <div class="chat__bubble">
+                    <img class="chat-bubble__img"src="https://thispersondoesnotexist.com/image" alt="Profile picture">
+                    Hi! Super excited to hear about your offer</div>
+                    <div class="chat__bubble chat__bubble--out">
+                        <img class="chat-bubble__img"src="https://thispersondoesnotexist.com/image" alt="Profile picture">
+                        Can we schedule a video call at 6pm?</div>
+            </section>
+            <section class="chat__input">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Your message" aria-label="Your message"
+                    aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" id="basic-addon2">Send</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    </body>
+<script>
+eva.replace()</script>
+</html>
