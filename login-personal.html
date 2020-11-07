@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cute Hack 2020</title>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/eva-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="login.html"
+        ><i data-eva="arrow-back-outline"></i
+      ></a>
+      <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+    </nav>
+    <div class="container">
+      <div class="heading-container">
+        <h1 class="heading">Personal login</h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            aria-describedby="usernameHelp"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" />
+        </div>
+        <button type="button" class="buttons btn btn-primary btn-lg btn-block">
+          Login
+        </button>
+        <button
+          type="button"
+          class="buttons btn btn-secondary btn-lg btn-block"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+  </body>
+  <script>
+    eva.replace();
+  </script>
+</html>
