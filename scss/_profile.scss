@@ -44,3 +44,10 @@
   flex-direction: column;
   padding: 2rem 0;
 }
+
+.alert-custom {
+  @extend .alert-primary;
+  color: var(--primary);
+  border: none;
+  background-color: var(--primary-light);
+}
