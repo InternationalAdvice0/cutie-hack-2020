@@ -1,6 +1,15 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "variables";
-@import "global";
+@import 'variables';
+@import 'custom';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import 'global';
+@import 'chat';
 @import "profile";
-@import "chat";
 @import "login";
+
+@import 'partials/layout';
+@import 'partials/register';
+@import 'partials/icons';
+@import 'partials/buttons';
+
+

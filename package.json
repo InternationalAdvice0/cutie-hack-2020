@@ -21,7 +21,8 @@
   "homepage": "https://github.com/bartektelec/cutie-hack-2020#readme",
   "devDependencies": {
     "node-sass": "^5.0.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Person</title>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <script src="https://unpkg.com/eva-icons"></script>
+  </head>
+  <body class="register person">
+    <div class="container text-center">
+      <h1>Register</h1>
+      <section class="content">
+        <form class="text-left">
+          <div class="form-row">
+            <div class="form-group col-4">
+              <div class="icon-wrapper-border">
+                <i
+                  data-eva="person"
+                  data-eva-fill="#979797"
+                  data-eva-height="60px"
+                  data-eva-width="60px"
+                ></i>
+              </div>
+            </div>
+            <div class="form-group col-8 center-wrapper">
+              <div class="center-vertically">
+                <p class="h6">Name Nameson</p>
+                <p class="h6">Frontend Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="skills"
+              placeholder="Add skills"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="education"
+              placeholder="Add education"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="work-experience"
+              placeholder="Add work experience"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="courses"
+              placeholder="Add courses"
+            />
+          </div>
+          <div class="row">
+            <div class="col">
+              <button type="button" class="btn btn-primary btn-block">Back</button>
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-primary btn-block">View profile</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script>
+      eva.replace();
+    </script>
+  </body>
+</html>
