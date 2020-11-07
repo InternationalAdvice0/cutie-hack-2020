@@ -27,6 +27,15 @@ html, body {
     box-shadow: none;
 }
 
+.btn-solid{
+    border-radius: 20px;
+    border: none;
+    padding: 6px 30px;
+    background: #7468FF;
+    color: white;
+    box-shadow: none;
+}
+
 .btn-right {
     float: right;
     margin: 30px 20px;
@@ -80,4 +89,23 @@ html, body {
 
 .dot-active {
     background-color: #7468FF;
+}
+
+/* LOGIN PAGES */
+
+.heading-container {
+    margin-bottom: 6rem;
+}
+
+.login-form {
+    margin: 0 50px;
+}
+
+.form-group {
+    margin: 30px 0;
+}
+
+.form-input {
+    border-radius: 30px;
+    padding: 25px;
 }
