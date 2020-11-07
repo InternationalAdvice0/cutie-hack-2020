@@ -14,10 +14,17 @@ html, body {
     flex: 1 0 auto;
 }
 
-.btn {
+.intro-2 {
+    flex: 1 0 auto;
+}
+
+.btn{
     border: solid 2px #7468FF;
     border-radius: 20px;
     padding: 5px 30px;
+    background: none;
+    color: #444444;
+    box-shadow: none;
 }
 
 .btn-right {
