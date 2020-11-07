@@ -1,7 +1,5 @@
 .register {
   .container {
-    // display: flex;
-    // flex-direction: column;
     height: 100vh;
     position: relative;
 
@@ -11,7 +9,7 @@
   }
 
   h1 {
-      margin: 1rem;
+    margin: 1rem;
   }
 
   .center-vertically {
@@ -21,7 +19,7 @@
     transform: translate(-50%, -50%);
 
     div {
-        margin: 2rem auto;
+      margin: 2rem auto;
     }
   }
 
@@ -33,10 +31,7 @@
     display: block;
     margin: auto;
   }
-
-  
 }
 
 .register.person {
-
 }
