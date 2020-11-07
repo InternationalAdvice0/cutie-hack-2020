@@ -1,6 +1,9 @@
-@import 'partials/variables';
-
 @import 'custom';
+
+@import 'variables';
+@import 'global';
+@import 'chat';
+
 @import 'partials/register';
 @import 'partials/icons';
 @import 'partials/buttons';

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass scss/ -o css/",
-    "dev": "parcel index.html",
+    "dev": "parcel *.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "firebase": "^8.0.1"
   }
 }
