@@ -3,33 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Cute Hack 2020</title>
     <link rel="stylesheet" href="scss/style.scss" />
+    <link rel="stylesheet" href="css/intropage.css" />
     <script defer src="js/app.js"></script>
     <script src="https://unpkg.com/eva-icons"></script>
   </head>
+
   <body>
-    <nav class="navbar navbar-light bg-light">
-      <div class="navbar-brand"></div>
-      <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
-    </nav>
-    <div class="container">
-      <div class="heading-container">
-        <h1 class="heading">Login</h1>
+    <div class="intro-2">
+      <nav class="navbar navbar-light bg-light">
+        <div class="navbar-brand"></div>
+        <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+      </nav>
+      <div class="container">
+        <div class="heading-container">
+          <h1 class="intro-h1">Login</h1>
+        </div>
+        <div class="login-div">
+          <h2 class="login-header">Choose login</h2>
+          <a href="login-business.html">
+            <button type="button" class="redirect-btn btn btn-primary btn-lg">
+              Business
+            </button>
+          </a>
+          <a href="login-personal.html">
+            <button type="button" class="redirect-btn btn btn-primary btn-lg">
+              Personal
+            </button>
+          </a>
+        </div>
       </div>
-      <div class="login-div">
-        <h2 class="login-header">Choose login</h2>
-        <a href="login-business.html">
-          <button type="button" class="redirect-btn btn btn-primary btn-lg">
-            Business
-          </button>
-        </a>
-        <a href="login-personal.html">
-          <button type="button" class="redirect-btn btn btn-primary btn-lg">
-            Personal
-          </button>
-        </a>
-      </div>
+    </div>
+    <div class="dots">
+      <a href="./intropage.html">
+        <div class="dot"></div>
+      </a>
+      <a href="./intropage2.html">
+        <div class="dot"></div>
+      </a>
+      <a href="./intropage3.html">
+        <div class="dot"></div>
+      </a>
+      <a href="./login.html">
+        <div class="dot dot-active"></div>
+      </a>
     </div>
   </body>
   <script>
