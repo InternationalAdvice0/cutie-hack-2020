@@ -11,10 +11,10 @@
   }
 
   h1 {
-      margin-top: 1rem;
+      margin: 1rem;
   }
 
-  .content {
+  .center-vertically {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,6 +32,11 @@
   button {
     display: block;
     margin: auto;
-    padding: 0.5rem 2rem;
   }
+
+  
+}
+
+.register.person {
+
 }
