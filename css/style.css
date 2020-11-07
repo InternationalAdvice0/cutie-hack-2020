@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Noto+Sans+JP:wght@300;700;900&display=swap');
+
+body {
+    background-image: url("/images/intro.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.btn {
+    border: solid 2px #7468FF;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-right {
+    
+}
+
+.intro-h1 {
+
+}
