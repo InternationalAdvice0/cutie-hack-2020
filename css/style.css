@@ -1,23 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Noto+Sans+JP:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Noto+Sans+JP:wght@400;700;900&display=swap');
 
 body {
     background-image: url("/images/intro.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left;
     height: 1000px;
     font-family: 'Noto Sans JP', sans-serif;
+}
+.intro {
+    position: absolute;
 }
 
 .btn {
     border: solid 2px #7468FF;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 5px 30px;
 }
 
 .btn-right {
-    
+    float: right;
+    margin: 30px 20px;
 }
 
 .intro-h1 {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 60px;
+    color: #7468FF;
+}
 
+.intro-text {
+    margin: 50px 25px;
+    padding: 100px 25px 50px 25px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.opacity-bgr {
+    background-color: rgba(0, 0, 0, 0.442);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #7468FF;
+    margin: 5px;
 }
