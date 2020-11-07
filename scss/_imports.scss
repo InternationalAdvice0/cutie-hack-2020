@@ -1,12 +1,12 @@
 @import 'variables';
-
 @import 'custom';
+@import '../node_modules/bootstrap/scss/bootstrap';
 
 @import 'global';
 @import 'chat';
 
+@import 'partials/layout';
 @import 'partials/register';
 @import 'partials/icons';
 @import 'partials/buttons';
 
-@import '../node_modules/bootstrap/scss/bootstrap';
