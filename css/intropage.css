@@ -15,21 +15,21 @@
 .intro-h1 {
     font-weight: 900;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 100px;
     font-size: 80px;
     color: #7468FF;
 }
 
 .intro-h1-small {
     font-size: 50px;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 .intro-text {
     margin: 100px 50px 0px 50px;
     padding: 80px 0px 50px 0px;
     color: #444444;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -40,8 +40,8 @@
     height: 40%;
 }
 
-.opacity-bgr {
-    height: 50%;
+.opacity-bgr-long {
+    height: 100%;
 }
 
 .dots {
