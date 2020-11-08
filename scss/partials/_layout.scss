@@ -1,0 +1,21 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.center-wrapper {
+    position: relative;
+}
+
+.center-totally {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-vertically {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

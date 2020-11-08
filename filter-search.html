@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter Search</title>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/eva-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#"><i data-eva="arrow-back-outline"></i></a>
+      <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+    </nav>
+    <div class="container">
+      <div class="background">
+        <h1 class="heading-search">Filter Search</h1>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search for keywords"
+            aria-label="Search for keywords"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button class="btn btn-secondary" type="button" id="button-addon2">
+              Search
+            </button>
+          </div>
+        </div>
+        <p>Area</p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">Oslo</div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">Bergen</div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">Stavanger</div>
+        </div>
+        <p>Profession</p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">Frontend Developer</div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">Backend Developer</div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">Fullstack Developer</div>
+        </div>
+        <p>Skills</p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">HTML</div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">CSS</div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input
+                id="checkbox"
+                type="checkbox"
+                aria-label="Checkbox for following text input"
+              />
+            </div>
+          </div>
+          <div class="form-control">JavaScript</div>
+        </div>
+        <button
+          type="button"
+          class="buttons search-btn btn btn-primary btn-lg btn-block"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </body>
+  <script>
+    eva.replace();
+  </script>
+</html>

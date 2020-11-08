@@ -3,38 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cute Hack 2020</title>
+    <title>Login Personal</title>
     <link rel="stylesheet" href="scss/style.scss" />
-    <script defer src="js/app.js"></script>
+    <script defer src="js/login.js"></script>
     <script src="https://unpkg.com/eva-icons"></script>
     <link rel="stylesheet" href="css/intropage.css">
   </head>
   <body>
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="login.html"
-        ><i data-eva="arrow-back-outline"></i
-      ></a>
-      <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
-    </nav>
-    <div class="container">
-      <div class="heading-container">
-        <h1 class="intro-h1 intro-h1-small">Personal login</h1>
+      ><i data-eva="arrow-back-outline"></i
+        ></a>
+        <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+      </nav>
+      <div class="container">
+        <div class="heading-container">
+          <h1 class="intro-h1 intro-h1-small">Personal login</h1>
       </div>
-      <form class="login-form">
+      <form id="loginForm" class="login-form">
         <div class="form-group">
-          <label for="username">Username</label>
+          <label for="loginFormEmail">Email</label>
           <input
-            type="text"
+            type="email"
             class="form-control form-input"
-            id="username"
-            aria-describedby="usernameHelp"
+            id="loginFormEmail"
+            aria-describedby="emailHelp"
           />
         </div>
         <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" class="form-control form-input" id="password" />
+          <label for="loginFormPassword">Password</label>
+          <input type="password" class="form-control form-input" id="loginFormPassword" />
         </div>
-        <button type="button" class="buttons btn btn-primary btn-lg btn-block">
+        <button type="submit" class="buttons btn btn-primary btn-lg btn-block">
           Login
         </button>
         <button
@@ -48,5 +48,6 @@
   </body>
   <script>
     eva.replace();
+
   </script>
 </html>

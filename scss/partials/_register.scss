@@ -1,0 +1,41 @@
+.register {
+  .container {
+    height: 100vh;
+    position: relative;
+
+    * {
+      flex: 1;
+    }
+  }
+
+  .center-totally {
+    div {
+      margin: 2rem auto;
+    }
+  }
+
+  svg {
+    margin: 0.5rem auto;
+  }
+
+  .h6 svg {
+      margin: 0;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 2.5rem;
+    border-radius: 50px;
+  }
+  
+  form {
+      margin-bottom: 3rem;
+  }
+
+  .form-control {
+      border-color: $primary-purple;
+      border-radius: 50px;
+      padding: 1.5rem;
+  }
+}
