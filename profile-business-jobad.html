@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cute Hack 2020</title>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/eva-icons"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/profilepage.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="login.html"><i data-eva="arrow-back-outline"></i></a>
+        <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+    </nav>
+    <div class="container">
+        <div class="heading-container">
+            <h1 class="heading-1">Create a job advertisement</h1>
+            <section class="section-nomargin-bottom">
+                <h2 class="h2">Job description</h2>
+                <textarea class="form-control" id="description" rows="5"
+                    placeholder="Come work for us at Hack Corp. if you want a fun work-place"></textarea>
+    
+                <form class="text-left">
+                    <div class="form-group">
+                        <label class="h2" for="name">Job title</label>
+                        <input type="text" class="form-control" id="name" />
+                    </div>
+                    <div class="form-group">
+                        <label class="h2" for="reg-number">Position type</label>
+                        <input type="number" class="form-control" id="reg-number" />
+                    </div>
+                    <div class="form-group">
+                        <label class="h2" for="location">Location</label>
+                        <input type="text" class="form-control" id="location">
+                    </div>    
+                </form>
+    
+            </section>
+            <section class="section-nomargin-top">
+                <a href="./myprofile-business.html" class="profile-btn profile-btn-solid">
+                    <p class="profile-btn-text profile-btn-text-solid">Create advertisement</p>
+                    <i class="profile-btn-icon" data-eva="arrow-forward-outline"></i>
+                </a>
+            </section>
+    
+
+
+    </div>
+</body>
+<script>
+    eva.replace();
+</script>
+
+</html>

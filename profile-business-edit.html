@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cute Hack 2020</title>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <script defer src="js/app.js"></script>
+    <script src="https://unpkg.com/eva-icons"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/profilepage.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="./myprofile-business.html"><i data-eva="arrow-back-outline"></i></a>
+        <a class="navbar-brand" href="#"><i data-eva="funnel-outline"></i></a>
+    </nav>
+    <div class="container">
+        <div class="heading-container">
+            <h1 class="heading-1">Edit business profile</h1>
+            <header class="profile-header">
+                <img class="avatar  avatar-space" src="https://thispersondoesnotexist.com/image" alt="Picture">
+                <div class="profile-header-titles">
+                    <a href="./profile-business-edit.html" class="profile-btn profile-btn-nomargin">
+                        <p class="profile-btn-text">Upload logo</p> <i data-eva="upload-outline"></i></i>
+                    </a>
+                </div>
+        </div>
+        </header>
+        <section class="section-nomargin-bottom">
+            <h2 class="h2">About</h2>
+            <textarea class="form-control" id="description" rows="5"
+                placeholder="Come work for us at Hack Corp. if you want a fun work-place"></textarea>
+
+            <form class="text-left">
+                <div class="form-group">
+                    <label class="h2" for="name">Business name</label>
+                    <input type="text" class="form-control" id="name" />
+                </div>
+                <div class="form-group">
+                    <label class="h2" for="reg-number">Registration number</label>
+                    <input type="number" class="form-control" id="reg-number" />
+                </div>
+                <div class="form-group">
+                    <label class="h2" for="established">Established</label>
+                    <input type="number" class="form-control" id="established" />
+                </div>
+                <div class="form-group">
+                    <label class="h2" for="number-of-employees">Number of employees</label>
+                    <input type="number" class="form-control" id="number-of-employees" />
+                </div>
+                <div class="form-group">
+                    <label class="h2" for="location">Location</label>
+                    <input type="text" class="form-control" id="location">
+                </div>
+                <p class="h2 h2-big">Representative</p>
+                <div class="form-group">
+                    <label class="h2" for="first-name">First name</label>
+                    <input type="text" class="form-control" id="first-name" />
+                </div>
+                <div class="form-group">
+                    <label class="h2" for="last-name">Last name</label>
+                    <input type="text" class="form-control" id="last-name" />
+                </div>
+                <div class="form-group">
+                    <label class="h2" for="role">Business role</label>
+                    <input type="text" class="form-control" id="role" />
+                </div>
+
+
+            </form>
+
+        </section>
+        <section class="section-nomargin-top">
+            <a href="./myprofile-business.html" class="profile-btn profile-btn-solid">
+                <p class="profile-btn-text profile-btn-text-solid">Save changes</p>
+                <i class="profile-btn-icon" data-eva="arrow-forward-outline"></i>
+            </a>
+        </section>
+
+
+    </div>
+</body>
+<script>
+    eva.replace();
+</script>
+
+</html>
