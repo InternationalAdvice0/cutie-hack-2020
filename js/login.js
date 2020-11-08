@@ -1,7 +1,9 @@
-import { firebase, loginUser, logoutUser, registerUser } from './auth.js';
+import { firebase, loginUser, registerUser } from './auth.js';
 const emailField = document.querySelector('#loginFormEmail');
 const pwField = document.querySelector('#loginFormPassword');
 const form = document.querySelector('#loginForm');
+
+registerUser('test@123.com', '123456');
 
 if (form && emailField && pwField) {
   form.addEventListener('submit', e => {

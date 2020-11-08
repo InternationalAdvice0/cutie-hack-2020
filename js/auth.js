@@ -6,11 +6,13 @@ import 'firebase/firestore';
 import firebaseConfig from './firebaseConfig';
 
 firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
 
 function registerUser(email, password) {
   firebase
     .auth()
     .createUserWithEmailAndPassword(email, password)
+    .then(res => console.log(res))
     .catch(error => {
       console.error(error);
     });
@@ -31,5 +33,5 @@ function logoutUser() {
   return firebase.auth().signOut();
 }
 
-export { logoutUser, loginUser, registerUser, firebase };
+export { logoutUser, loginUser, registerUser, firebase, db };
 export default firebase;

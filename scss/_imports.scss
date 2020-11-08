@@ -3,11 +3,13 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 @import 'global';
-@import 'profile';
 @import 'chat';
+@import 'profile';
 @import 'login';
+@import 'filter';
 
 @import 'partials/layout';
 @import 'partials/register';
 @import 'partials/icons';
 @import 'partials/buttons';
+@import 'partials/typography';
