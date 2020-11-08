@@ -34,7 +34,8 @@
 }
 
 .container {
-    margin: 0 20px;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 .h2 {
@@ -45,6 +46,7 @@
 
 .skills {
     display: flex;
+    margin-top: 10px;
 }
 
 .skill {
@@ -56,4 +58,51 @@
 
 .skill-first {
     margin-left: 0;
+}
+
+
+.profile-btn {
+    border: 2px solid #7468FF;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.profile-btn-text {
+    color: #444444;
+    display: block;
+    margin: 0;
+    text-decoration: none;
+}
+
+.profile-btn-text:hover {
+    text-decoration: none;
+}
+
+.profile-info {
+    background-color: #52D94F;
+    margin: 10px 10px 10px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+
+}
+
+.profile-info-year {
+    margin: 0;
+}
+
+.profile-info-place {
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+
+section {
+    margin: 50px 0;
 }
