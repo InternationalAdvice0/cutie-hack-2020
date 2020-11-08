@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatting</title>
     <link rel="stylesheet" href="scss/style.scss">
-    <script defer src="js/app.js"></script>
+    <script defer src="js/tinder.js"></script>
     <script src="https://unpkg.com/eva-icons"></script> 
     
 </head>
@@ -18,7 +18,7 @@
         </nav>
         <main class="app__content">
             <header class="profile__header">
-                <img class="avatar avatar--big"src="https://thispersondoesnotexist.com/image" alt="Picture">
+                <img id="userPic"class="avatar avatar--big"src="https://thispersondoesnotexist.com/image" alt="Picture">
             </header>
             <div class="profile__controls">
                 <button class="controls controls--decline">
@@ -27,7 +27,7 @@
                 <button class="controls controls--accept"><i data-eva="checkmark-outline" data-eva-fill="#fff"></i></button>
             </div>
             <div class="profile__content">
-                <h1>Adam, 24</h1>
+                <h1 id="userName">Adam, 24</h1>
                 <p>Skills: 
                     <span class="badge badge-success">HTML5</span>
                     <span class="badge badge-success">React</span>

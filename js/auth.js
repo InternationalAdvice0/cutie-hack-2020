@@ -1,3 +1,5 @@
+import 'regenerator-runtime/runtime';
+
 import firebase from 'firebase/app';
 
 import 'firebase/auth';
@@ -8,14 +10,18 @@ import firebaseConfig from './firebaseConfig';
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
-function registerUser(email, password) {
+function registerUser(email, password, profileData) {
   firebase
     .auth()
     .createUserWithEmailAndPassword(email, password)
-    .then(res => console.log(res))
+    .then(res =>
+      db.collection('users').add({ ...profileData, uid: res.user.uid })
+    )
     .catch(error => {
       console.error(error);
     });
+
+  loginUser(email, password);
 }
 
 function loginUser(email, password) {

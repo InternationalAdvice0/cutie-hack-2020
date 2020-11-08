@@ -3,7 +3,11 @@ const emailField = document.querySelector('#loginFormEmail');
 const pwField = document.querySelector('#loginFormPassword');
 const form = document.querySelector('#loginForm');
 
-registerUser('test@123.com', '123456');
+registerUser('bartektelec@gmail.com', '123bartek', {
+  photoURL: 'https://randomuser.me/api/portraits/men/97.jpg',
+  name: 'Bartek',
+  age: 24,
+});
 
 if (form && emailField && pwField) {
   form.addEventListener('submit', e => {
