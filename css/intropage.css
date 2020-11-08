@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Noto+Sans+JP:wght@400;700;900&display=swap');
 
-html, body {
-    height: 100%;
-    font-family: 'Noto Sans JP', sans-serif;
-    display: flex;
-    flex-direction: column;
-}
 .intro {
     background-image: url("/images/intro.jpeg");
     background-repeat: no-repeat;
@@ -18,28 +11,6 @@ html, body {
     flex: 1 0 auto;
 }
 
-.btn{
-    border: solid 2px #7468FF;
-    border-radius: 20px;
-    padding: 5px 30px;
-    background: none;
-    color: #444444;
-    box-shadow: none;
-}
-
-.btn-solid{
-    border-radius: 20px;
-    border: none;
-    padding: 6px 30px;
-    background: #7468FF;
-    color: white;
-    box-shadow: none;
-}
-
-.btn-right {
-    float: right;
-    margin: 30px 20px;
-}
 
 .intro-h1 {
     font-weight: 900;
