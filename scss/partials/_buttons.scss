@@ -1,4 +1,8 @@
-.btn {
-  padding: 0.5rem 2.5rem;
-  border-radius: 50px;
+.btn.border-purple {
+    border-color: $primary-purple;
+}
+
+.btn.background-purple {
+    background: $primary-purple;
+    color: white;
 }
