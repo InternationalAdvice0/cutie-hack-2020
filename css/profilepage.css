@@ -41,7 +41,7 @@
 .h2 {
     color: #7468FF;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .skills {
@@ -105,4 +105,34 @@
 
 section {
     margin: 50px 0;
+}
+
+.profile-btn-solid {
+    background-color: #7468FF;
+    color: white;
+    margin-top: 0;
+}
+
+.profile-btn-text-solid {
+    color: white;
+}
+
+.profile-btn-icon {
+    fill:white;
+}
+
+.profile-btn-nomargin {
+    margin-bottom: 0;
+}
+
+.section-nomargin-bottom {
+    margin-bottom: 30px;
+}
+
+.section-nomargin-top {
+    margin-top: 0;
+}
+
+.profile-about-text {
+    margin-bottom: 100px;
 }
