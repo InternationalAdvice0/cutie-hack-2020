@@ -10,7 +10,7 @@ html, body {
 }
 
 .btn{
-    border: solid 2px #7468FF;
+    border: solid 2px #7468FF!important;
     border-radius: 20px;
     padding: 5px 30px;
     background: none;
@@ -23,7 +23,7 @@ html, body {
     border: none;
     padding: 6px 30px;
     background: #7468FF;
-    color: white;
+    color: white!important;
     box-shadow: none;
 }
 
@@ -31,4 +31,6 @@ html, body {
     float: right;
     margin: 30px 20px;
 }
+
+
 
